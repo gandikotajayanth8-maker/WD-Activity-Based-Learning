@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Travel Booking</title>
+<style>
+body{
+font-family:Arial,sans-sarif;
+background:#f0f8ff;
+text-align:center;
+padding:15px;
+}
+h1{
+background:navy;
+color:white;
+padding:15px;
+}
+form,.card{
+background:white;
+padding:20px;
+margin:15px auto;
+max-width:400px;
+border-radius:10px;
+}
+input,select{
+width:95%
+padding:10px;
+margin:8px 0;
+}
+button{
+background:green;
+color:white;
+padding:10px 20px;
+border:none;
+}
+table{
+margin:20px auto;
+border-collapse:collapse;
+background:white;
+}
+th,td{
+border:1px solid black;
+padding:12px;
+}
+th{
+ background:navy;
+color:white;
+}
+</style>
+</head>
+<body>
+<h1>Travel Ticket Booking</h1>
+<form>
+<h2>Journey Details</h2>
+<input type="text"
+placeholder="Source"required>
+<input type="text"
+placeholder="Destination"required>
+<label>Travel Date:</label>
+<input type="date" required>
+<input type="text"
+placeholder="Passenger Name"required>
+<input type="number" min="1"
+placeholder="Passengers">
+<button type="submit">Search</button>
+</form>
+<h2>Available Services</h2>
+<div class="card">
+<h3>Express Bus</h3>
+<p>Departure:9:00 AM</p>
+<p>Fare:500/-</p>
+</div>
+<div class="card">
+<h3>Express Train</h3>
+<p>Departure:10:00 AM</p>
+<p>Fare:300/-</p>
+</div>
+<h2>Fare Table</h2>
+<table>
+<tr>
+<th>Transport</th>
+<th>Fare</th>
+</tr>
+<tr>
+<td>Bus</td>
+<td>500/-</td>
+</tr>
+<tr>
+<td>Train</td>
+<td>300/-</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
 
